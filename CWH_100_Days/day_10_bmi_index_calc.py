@@ -1,0 +1,5 @@
+print("THIS IS A BMI INDEX CALCULATOR")
+h = float(input("Enter your height(in meters) here:  "))
+w = float(input("Enter your weight(in KG) here:  "))
+bmi = round((w)/(h**2), 2)
+print("The BMI is", bmi)

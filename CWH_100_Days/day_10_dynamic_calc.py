@@ -1,0 +1,10 @@
+x = float(input("Enter first number here:  "))
+y = float(input("Enter second number here:  "))
+
+print("addition of both numbers is", x+y)
+print("subtraction of both numbers is", x-y)
+print("multiplication of both numbers is", x*y)
+print("division of both numbers is", x/y)
+print("floor division of both numbers is", x//y)
+print("exponential of of both numbers is", x**y)
+print("moduluds of both numbers is", x%y)
