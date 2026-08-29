@@ -34,7 +34,7 @@ print(complex(8,4))
 # 2== str (text) (in double quotes)
 # 3== bool (t/f)
 
-# 4==sequence data (lest, tuple) (will study in later lec)
+# 4==sequence data (list, tuple) (will study in later lec)
 #list- mutable, tuple- immutable
 
 list1 = [8, 2.3, [-4, 5], ["apple", "banana"]]

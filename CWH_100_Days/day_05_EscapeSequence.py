@@ -1,7 +1,7 @@
 # COMMENTS
 # shortcut : ctrl+/
 # or anything written after '#' is a commenrt
-# another shoercut : anything written in triple single/dpuble quoted commas (''' or  """) is a multiline string
+# another shortcut : anything written in triple single/dpuble quoted commas (''' or  """) is a multiline string
 # eg:
 print("this is print statement")   #this is a single line comment
 '''

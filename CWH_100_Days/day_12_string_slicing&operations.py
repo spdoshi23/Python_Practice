@@ -12,7 +12,7 @@ print(len(names))          #output=13
 
 # SLICING:
 # always use sq. brackets []
-# it gives (n-1) number of characters
+# it gives (n-1) number of indexes. i.e. if we give 0:4, it will give 0th, 1st, 2nd and 3rd index. we dont get 4th as it only gives n-1 characters.
 print(fruit[0:4])          #we get 0th, 1st, 2nd and 3rd index. we dont get 4th as it only gives n-1 characters.
 # output=Mang              #including 0 but not 4, till n-1
 print(fruit[1:4])          #output=ang   [index 1 to 3(n-1)]
