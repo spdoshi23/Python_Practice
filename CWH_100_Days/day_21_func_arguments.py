@@ -52,7 +52,7 @@ name("Peter", "Ego", "Quill")             #Hello, Peter Ego Quill
 
 # Arbitrary Arguments:
 # While creating a function, pass a * before the parameter name while defining the function.
-#  The function accesses the arguments by processing them in the form of tuple
+#  The function accesses the arguments by processing them in the form of TUPLE
 
 def name(*name):
     print("Hello,", name[0], name[1], name[2])
@@ -60,11 +60,43 @@ def name(*name):
 name("James", "Buchanan", "Barnes")                      #output = Hello, James Buchanan Barnes
 
 def average(*numbers):
+    print(type(numbers))                                   #it'll take numbers as a tuple bcz of (*)  
     sum = 0
     for i in numbers:
         sum = sum + i
     print("Average is:", sum / len(numbers))
 average(6, 7, 8, 9)
+
+# Keyword Arbitrary Arguments:
+# While creating a function, pass a ** before the parameter name while defining the function.
+#  The function accesses the arguments by processing them in the form of DICTIONARY.
+
+def name(**name):
+    print(type(name))
+    print("Hello,", name["fname"], name["mname"], name["lname"])
+
+name(mname = "Buchanan", lname = "Barnes", fname = "James")                 #Hello, James Buchanan Barnes
+
+
+# Return Statement:
+
+# The return statement is used to return the value of the expression back to the calling function.
+# for eg, on line 62
+# we can return sum / len(numbers) rather than printing it.
+#  and then store it in some variable 'c = average(a,b,c,d)' and then print c
+
+# IF WE APPLY n RETURN STATEMENTS THEN FIRST STATEMENT IS CONSIDERED AND RETURNED
+
+def name(fname, mname, lname):
+    return "Hello, " + fname + " " + mname + " " + lname
+
+print(name("James", "Buchanan", "Barnes"))                    #Hello, James Buchanan Barnes
+
+
+
+
+
+
 
 
 
