@@ -9,7 +9,7 @@ p = "shubham "
 q = "doshi"
 print(p+q)   #output= shubham doshi
 print(int(a)+int(b))     #we forcefully converted(typecasted) a and b as integers rather than strings
-
+# output = 3
 
 # TYPECASTING
 # conversion of one data type into the other data type is known as type casting in python or type conversion in python.
@@ -36,11 +36,11 @@ print("The Sum of both the numbers is: ", sum)
  # Python automatically converts
 # a to int
 a = 7
-print(type(a))
+print(type(a))                  #int
  
 # Python automatically converts b to float
 b = 3.0
-print(type(b))
+print(type(b))                  #float
  
 # Python automatically converts c to float as it is a float addition
 c = a + b

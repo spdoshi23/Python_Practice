@@ -12,7 +12,7 @@ here we can write any number of lines in triple single inverted commas, and they
 
 # ESCAPE SEQUENCE CHARACTERS
 # To insert characters that cannot be directly used in a string, we use an escape sequence character.
-# like we cannot directly use dpuble inverted commas in a string inside a string thaat is sorrounded by double quotes itself
+# like we cannot directly use double inverted commas in a string inside a string thaat is sorrounded by double quotes itself
 # AN ESCAPE SEQUENCE IS A BACKSLASH (\) FOLLOWED BY CHARACTER WE WANT TO INSERT
 # eg:
 # print("This doesnt "execute")   here we want to write "execute" but we cant directly use "". so we use \"

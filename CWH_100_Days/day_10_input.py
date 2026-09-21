@@ -6,14 +6,14 @@ print ("my name is", a)       # as soon as i write my name, it'll give output as
 
 #we can also add string in input function as follows:
 b = input("what is your name  ")   #output: what is your name___
-print("my name is", b)           #after iwrite my name, output: my name is ____
+print("my name is", b)           #after i write my name, output: my name is ____
 
 # IMPORTANT----  input function returns the value as string. Hence we have to typecast them whenever required to another datatype.
 
 x = input("enter first number:  ")    #let 1st no. be 5
 y = input("enter second number:  ")   #let 2nd no. be 5
 print(x+y)                            #even though we have added 5 with 5 it will give output as 55 and not 10. 
-                                      #it happend bcz intut function returns value as string. we have to typecast it to int to get correct ans.
+                                      #it happend bcz input function returns value as string. we have to typecast it to int to get correct ans.
 print(int(x)+float(y))                  #now output: 10.0
 
 #alternate way

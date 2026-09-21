@@ -6,7 +6,7 @@
 # Lists are changeable meaning we can alter them after creation.
 # LISTS CAN BE CHANGED, TUPELS CAN'T BE CHANGED
 
-marks = [1, 2, 3]
+marks = [1, 2, 3] 
 print(type(marks))                    #<class 'list'>
 print(marks[0]) #(0th index)          #1
 print(marks[1])                       #2
