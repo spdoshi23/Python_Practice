@@ -130,7 +130,7 @@ print(animals[-8:-1:2])	#using negative indexes           ['dog', 'mouse', 'hors
 # List comprehensions are used for creating new lists from other iterables like lists, tuples, dictionaries, sets, and even in arrays and strings.
 
 # Syntax:          List = [Expression(item) for item in iterable if Condition]
-
+#                  new_list = [WHAT_TO_PUT_IN_LIST for VARIABLE in SOMETHING] 
 # Expression: It is the item which is being iterated.
 # Iterable: It can be list, tuples, dictionaries, sets, and even in arrays and strings.
 # Condition: Condition checks if the item should be added to the new list or not.
