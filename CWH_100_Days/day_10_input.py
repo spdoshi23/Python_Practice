@@ -6,7 +6,7 @@ print ("my name is", a)       # as soon as i write my name, it'll give output as
 
 #we can also add string in input function as follows:
 b = input("what is your name  ")   #output: what is your name___
-print("my name is", b)           #after i write my name, output: my name is ____
+print("my name is", b)             #after i write my name, output: my name is ____
 
 # IMPORTANT----  input function returns the value as string. Hence we have to typecast them whenever required to another datatype.
 

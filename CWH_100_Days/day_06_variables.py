@@ -1,12 +1,12 @@
-#variables are like containers. variables are stored in memory/RAM.
+# Variables are like containers. variables are stored in memory/RAM.
 # Creating a variable is like creating a placeholder in memory and assigning it some value
-#example (a, c, d, b/e all 4 are diff types of variables)
+# example (a, c, d, b/e all 4 are diff types of variables)
 a = 1
 b = True
 c = "Harry"
 d = None
 e = False
-print(a)   #so basically, a = 1 was stored in ram and it was printed
+print(a)   #so basically, a = 1 was stored in RAM and it was printed
 print(b)   #we saved b = true in ram so when print(b) was commanded it printed 'true' as output.
     # for eg, b = true is stored in ram. and its address is given to 'b'
 #WHEN YOU WANT TO PRINT VARIABLES, DONT PUT INVERTED COMMAS.
